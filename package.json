@@ -1,0 +1,28 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js",
+    "dev": "nodemon express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoasjunior/websocket.git"
+  },
+  "author": "Marco Antônio da Silva Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoasjunior/websocket/issues"
+  },
+  "homepage": "https://github.com/marcoasjunior/websocket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
